@@ -42,7 +42,7 @@ function getConfiguration(options: IDijsktraOptions): IDijsktraConfiguration {
   return configuration;
 }
 
-export async function runDijsktra(
+export async function solve(
   source: string,
   graph: IGraph,
   options: IDijsktraOptions = undefined
